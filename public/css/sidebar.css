@@ -1,0 +1,89 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+body {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -16rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .list-group {
+  width: 16rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+#avatarnav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 55px;
+    width: 55px;
+    align-content: center;
+}
+
+#avatarnav img{
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    object-position: center;
+    border: 4px solid #384659;
+}
+
+#nombreuser{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/*Estilos del menu Sidebar*/
+#menusidebar a{
+    color: lightgray;
+}
+#menusidebar a:hover{
+    color: white;
+}
+
+#menusidebar li{
+    transition: all .2s;
+}
+#menusidebar li a i{
+    margin-right: 10px;
+}
+#menusidebar li:hover{
+    background-color: #384659;
+}
+
+#menusidebar li:active{
+    background-color: #06549C;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -16rem;
+  }
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Colores*/
+.bg-airtech{
+    background-color: #262F3C;
+}
+
+.text-airtech{
+    color: #262F3C;
+}
+
+.bg-blueairtech{
+    background-color: #06549C;
+}
+
+.text-blueairtech{
+    color: #06549C;
+}
+
+.bg-redairtech{
+    background-color: #f6121c;
+}
+
+.text-redairtech{
+    color: #f6121c;
+}
+
+.bg-gris{
+    background-color: #f3f3f3;
+}
+/*Fin de colores*/
+
+/*Login*/
+#login{
+    height: 100vh;
+}
+
+.miniaturaaviones{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    overflow: hidden;
+}
+
+.miniaturaaviones img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: center;
+    border: 4px solid rgba(38, 47, 60, 0.15);
+}
+
+.cobertordeimagen{
+    height: 200px;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    overflow: hidden;
+}
+
+.cobertordeimagen img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all 1s
+}
+
+.cobertordeimagen img:hover{
+    transform: scale(1.2);
+}
